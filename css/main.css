@@ -11,6 +11,7 @@ body {
     font-family: 'Staatliches', cursive;
     background-color: #ff7517;
 }
+
 .header {
     margin-left: 5;
 }
@@ -19,7 +20,7 @@ body {
 .nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 0;
     overflow: hidden;
     background-color: #2C2F33;
     position: -webkit-sticky; /* Safari */
