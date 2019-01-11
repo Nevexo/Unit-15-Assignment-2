@@ -1,0 +1,48 @@
+/* This CSS file is specific to the homepage and doesn't
+effect any pages out side of it. */
+
+body {
+    background-color: black;
+    background-image: url("../images/homepage-lightblur.jpg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center right;
+}
+
+/* Welcome Message */
+.welcome-message {
+    font-family: 'Rokkitt', serif;
+    float: left;
+    padding: 10px;
+    color: lightgrey;
+    font-weight: 100;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.welcome-message h1 {
+    font-size: 60px;
+}
+
+.welcome-message .highlighted {
+    color: #ff5050;
+    transition: all 0.5s;
+}
+
+.welcome-message .hide {
+    opacity: 0;
+}
+
+/* Image credit Link */
+.footer a {
+    color: lightgrey;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: white;
+}

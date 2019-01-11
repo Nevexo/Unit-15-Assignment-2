@@ -1,37 +1,39 @@
 <html>
-    <!-- Hey Jack -->
     <head>
-        <title>Joe smells</title>
+        <title>HBWS | Home</title>
         <!-- Local CSS -->
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/cards.css">
+        <!-- Page Specific local CSS-->
+        <link rel="stylesheet" href="css/home.css">        
         <!-- Remote CSS -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Staatliches" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Staatliches|Rokkitt:300" rel="stylesheet">
     </head>
 
     <!-- Body Content -->
     <body>
         <!-- Header -->
-        <div class="header-wrapper">
-            <div class="header">
-                <h1>Yeetusdabs</h1>
-            </div>
-            <!-- Navigation -->
-            <div class="nav">
-                <ul class="nav-float">
-                    <li><a class="selected" href="default.asp"><i class="fas fa-home"></i>  Home</a></li>
-                    <li><a href="news.asp"><i class="fas fa-user"></i>  Staff Profiles</a></li>
-                    <li><a href="contact.asp"><i class="fas fa-clipboard"></i>  Training</a></li>
-                    <li style="float:right"><a class="active" href="#about"><i class="fas fa-info-circle"></i>  About Us</a></li>
-                </ul>
-            </div>
-            <!-- End navigation-->
-        </div>
+
         <!-- End header -->
+
+        <!-- Centre of screen -->
+        <div class="welcome-message">
+            <h1>
+                We're HBWS, we;</br>
+                <span class="highlighted" id="word"></span>
+            </h1>
+        </div>
+        <!-- End centre -->
+        <!-- Footer -->
+        <div class="footer">
+            <a href="https://unsplash.com/photos/k6BHLfw_jUg">Photo by Kyaw Tun on Unsplash</a>
+        </div>
+        <!-- End footer -->
     </body>
 
     <footer>
+        <!-- Import JavaScript -->
         <script src="js/main.js"></script>
+        <script src="js/welcome.js"></script>
     </footer>
 </html>
