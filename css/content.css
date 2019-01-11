@@ -28,3 +28,32 @@
 /* Content page footer */
 
 /* The footer is not displayed on the index page as it is just a ldning */
+
+.footer {
+    white-space: nowrap;
+    padding-top: 25px;
+    margin-top: 10px;
+    background-color: #1d2123;
+    display: inline-block;
+    width: 100%
+}
+
+.footer > .left {
+    padding-left: 10px;
+    float: left;
+}
+
+.footer > .right {
+    padding-right: 10px;
+    float: right;
+}
+
+.footer a {
+    color: lightgrey;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer a:hover {
+    color: white;
+}
