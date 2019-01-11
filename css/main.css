@@ -71,10 +71,6 @@ body {
     line-height: 19.6px;
 }
 
-.header #nav-container li a {
-    /* Active page */
-}
-
 .selected {
     color: #38A7A7;
 }
