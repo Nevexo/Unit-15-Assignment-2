@@ -6,7 +6,7 @@
     flex-flow: column;
 }
 
-.content {
+.content-wrapper {
     margin-left: 14%;
     width: 70%;
     height: 100%;
@@ -14,7 +14,17 @@
     box-shadow: 0 14px 18px 0 rgba(0,0,0,0.2);
 }
 
-.content > .header {
+.content-wrapper > .header {
     font-size: 50px;
     text-align: center;
 }
+
+.content > p{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    letter-spacing: 1px;   
+}
+
+/* Content page footer */
+
+/* The footer is not displayed on the index page as it is just a ldning */
