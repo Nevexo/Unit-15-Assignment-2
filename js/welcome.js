@@ -6,9 +6,9 @@
 const words = [
     "develop",
     "design",
-    "solve problems",
-    "don't make beans",
-    "eat ass"
+    "innovate",
+    "change",
+    "rethink"
 ]
 // Extra formatting options
 const prefix = "" // Before the text
