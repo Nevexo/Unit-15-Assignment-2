@@ -6,3 +6,70 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+.header {
+    width: 100%;
+}
+
+.header .logo {
+    display: inline-block;
+    font-size: 26px;
+    color: lightgrey;
+}
+
+.header .logo a {
+    color: lightgrey;
+    text-decoration: none;
+    transition:.5s;
+}
+
+.header .logo a:hover {
+    color: white;
+}
+
+/* Navigation Bar */
+
+.header #nav-container {
+    overflow:hidden;
+    padding-top: 0.5%;
+    padding-left: 0.5%;
+    white-space: nowrap;
+    padding-right: 45px;
+    padding-left: 45px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+
+.header #nav-container ul {
+    padding-top: 1.4%;
+    float: right;
+    font-size: 14px;
+    list-style: none;
+}
+
+.header #nav-container li {
+
+    display: inline-block;
+    transition:.5s;
+    min-height: 1px;
+    padding-right: 10px;
+    line-height: 1px;
+}
+
+.header #nav-container li a {
+    color: lightgrey;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    transition:.5s;
+    line-height: 19.6px;
+}
+
+
+.header #nav-container li a:hover {
+    color: white;
+}

@@ -7,7 +7,8 @@ const words = [
     "develop",
     "design",
     "solve problems",
-    "aren't heinz"
+    "don't make beans",
+    "eat ass"
 ]
 // Extra formatting options
 const prefix = "" // Before the text
