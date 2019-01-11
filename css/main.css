@@ -33,11 +33,13 @@ body {
     overflow:hidden;
     padding-top: 0.5%;
     padding-left: 0.5%;
+    padding-bottom: 0.5%;
     white-space: nowrap;
     padding-right: 45px;
     padding-left: 45px;
     overflow-x: auto;
     overflow-y: hidden;
+    background-color: black;
     
 }
 
@@ -69,6 +71,13 @@ body {
     line-height: 19.6px;
 }
 
+.header #nav-container li a {
+    /* Active page */
+}
+
+.selected {
+    color: #38A7A7;
+}
 
 .header #nav-container li a:hover {
     color: white;
