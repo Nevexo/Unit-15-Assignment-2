@@ -12,7 +12,7 @@ const words = [
 ]
 // Extra formatting options
 const prefix = "" // Before the text
-const affix = "." // After the text
+const affix = "" // After the text
 // Timeer
 const time = 3000 // In milliseconds (*1000)
 

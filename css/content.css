@@ -4,12 +4,13 @@
     font-family: 'Rokkitt', serif;
     display: flex;
     flex-flow: column;
+    background-image: url("../images/prism.png");
 }
 
 .content-wrapper {
-    margin-left: 14%;
-    width: 70%;
-    height: 100%;
+    margin-left: 25%;
+    width: 50vw;
+    height: fit-content;
     background-color: #2C2F33;
     box-shadow: 0 14px 18px 0 rgba(0,0,0,0.2);
 }
@@ -19,10 +20,14 @@
     text-align: center;
 }
 
-.content > p{
+.content > p {
     font-family: 'Roboto', sans-serif;
-    padding: 10px;
-    letter-spacing: 1px;   
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 300;
+    font-size: 14pt;
+    letter-spacing: 1px;
+    line-height: 30px;
 }
 
 /* Content page footer */

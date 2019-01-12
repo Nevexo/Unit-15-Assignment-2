@@ -35,7 +35,7 @@ body {
 
 /* Image credit Link */
 .footer a {
-    color: lightgrey;
+    color: rgb(139, 139, 139);
     text-decoration: underline;
     position: absolute;
     bottom: 8px;
