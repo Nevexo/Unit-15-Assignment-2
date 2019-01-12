@@ -4,14 +4,19 @@
     font-family: 'Rokkitt', serif;
     display: flex;
     flex-flow: column;
-    background-image: url("../images/prism.png");
+    background-color: black
+}
+
+.laptop {
+    filter: grayscale(80%);
 }
 
 .content-wrapper {
     margin-left: 25%;
     width: 50vw;
     height: fit-content;
-    background-color: #2C2F33;
+    background-color: black
+    /*background-color: #2C2F33;*/
     box-shadow: 0 14px 18px 0 rgba(0,0,0,0.2);
 }
 
