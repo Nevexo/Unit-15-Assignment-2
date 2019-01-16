@@ -8,7 +8,7 @@ const words = [
     "design",
     "innovate",
     "change",
-    "rethink"
+    "rethink",
 ]
 // Extra formatting options
 const prefix = "" // Before the text
@@ -22,7 +22,7 @@ let counter = 0
 const update = () => {
     // Counter represents an item in the words array
     // If it has reached the end, set it back to zero.
-    if (counter >= words.length) {
+    if (counter > words.length) {
         counter = 0
     }
 
