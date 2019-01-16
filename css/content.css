@@ -9,10 +9,12 @@
 
 .content-wrapper {
     margin-left: 25%;
+    display: inline-block;
     width: 50vw;
-    height: fit-content;
+    height: 100%;
     background-color: #2C2F33;
     box-shadow: 0 14px 18px 0 rgba(0,0,0,0.2);
+    overflow: auto;
 }
 
 .content-wrapper > .header {
@@ -39,8 +41,6 @@
     padding-top: 25px;
     margin-top: 10px;
     background-color: #1d2123;
-    display: inline-block;
-    width: 100%
 }
 
 .footer > .left {
