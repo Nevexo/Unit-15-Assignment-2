@@ -70,8 +70,8 @@ body {
     line-height: 19.6px;
 }
 
-a .selected {
-    color: #38A7A7;
+.header #nav-container a .selected {
+    color: white;
 }
 
 .header #nav-container li a:hover {
