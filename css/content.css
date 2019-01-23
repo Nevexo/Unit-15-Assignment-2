@@ -1,20 +1,21 @@
 /* Used by pages with text */
 
 .wrapper {
-    font-family: 'Rokkitt', serif;
     display: flex;
     flex-flow: column;
+    height: fit-content;
     background-image: url("../images/prism.png");
 }
 
 .content-wrapper {
-    margin-left: 25%;
+    margin-left: 15%;
     display: inline-block;
-    width: 50vw;
+    width: 70vw;
     height: 100%;
     background-color: #2C2F33;
     box-shadow: 0 14px 18px 0 rgba(0,0,0,0.2);
     overflow: unset;
+    margin-bottom: 10px;
 }
 
 .content-wrapper > .header {

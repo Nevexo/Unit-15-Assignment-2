@@ -1,3 +1,15 @@
 /* Staff page card CSS
 
 By Cameron Fleming - 20182242 */
+
+.staff-wrapper > .staff-content {
+    margin-left: 1.5%;
+    box-shadow: 14px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: rgba(121, 121, 121, 0.116);
+    width: fit-content;
+    height: fit-content;
+}
+
+.staff-wrapper > .staff-content > .staff-information {
+    margin: 10px;
+}
