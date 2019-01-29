@@ -16,6 +16,7 @@
     box-shadow: 0 14px 18px 0 rgba(0,0,0,0.2);
     overflow: unset;
     margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .content-wrapper > .header {
