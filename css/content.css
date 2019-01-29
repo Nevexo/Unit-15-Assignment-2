@@ -63,3 +63,15 @@
 .footer a:hover {
     color: white;
 }
+
+/* Customize anchors */
+
+a {
+    color: lightgrey;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+}
