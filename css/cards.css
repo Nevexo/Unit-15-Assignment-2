@@ -1,8 +1,8 @@
-/* Staff page card CSS
+/* Card CSS
 
 By Cameron Fleming - 20182242 */
 
-.staff-wrapper > .staff-content {
+.card-wrapper > .card-content {
     margin-left: 1.5%;
     box-shadow: 14px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: rgba(121, 121, 121, 0.116);
@@ -11,12 +11,12 @@ By Cameron Fleming - 20182242 */
     float: left;
 }
 
-.staff-wrapper > .staff-content > .staff-information {
+.card-wrapper > .card-content > .card-information {
     margin: 10px;
     padding-bottom: 10px;
 }
 
-.staff-wrapper > .staff-content > .overlay {
+.card-wrapper > .card-content > .overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -28,11 +28,11 @@ By Cameron Fleming - 20182242 */
     transition: .5s ease;
 }
   
-.staff-wrapper > .staff-content:hover .overlay {
+.card-wrapper > .card-content:hover .overlay {
     height: 100%;
 }
 
-.staff-wrapper > .staff-content > .text {
+.card-wrapper > .card-content > .text {
     color: white;
     font-size: 20px;
     position: absolute;
