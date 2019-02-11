@@ -38,6 +38,12 @@ const update = () => {
         counter++; // Increment the counter
     }, 500)
 
+    // One in five chance of running nav bar animation
+    if (Math.floor(Math.random() * 5) == 0) {
+        runAnimation()
+        console.log("Random animation run.")
+    }
+
 }
 
 setInterval(() => {
@@ -47,3 +53,48 @@ setInterval(() => {
 }, time) // Run every {time} milliseconds.
 
 update() // Update at startup
+
+// Animate the nav bar on the home page
+
+let navButtons = []
+
+const addClass = (element) => {
+    element.classList.add("selected")
+}
+
+const removeClass = (element) => {
+    element.classList.remove("selected")
+}
+
+var elements = document.getElementsByClassName("animate");
+for(var x=0; x < elements.length; x++)
+{
+    navButtons.push(elements[x])
+}
+
+let navCounter
+let mode 
+let interval
+
+const runAnimation = () => {
+    navCounter = 0
+    mode = 0
+    interval = setInterval(() => {
+        if (mode == 0) {
+            addClass(navButtons[navCounter])
+        }else {
+            removeClass(navButtons[navCounter])
+        }
+        navCounter++
+        if (navCounter == navButtons.length) {
+            if (mode == 0) {
+                mode = 1
+                navCounter = 0
+            }else {
+                clearInterval(interval)
+            }
+        }
+    }, 100)
+}
+
+runAnimation()

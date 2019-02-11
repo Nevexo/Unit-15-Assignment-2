@@ -70,8 +70,10 @@ body {
     line-height: 19.6px;
 }
 
-.header #nav-container a .selected {
-    color: white;
+.selected {
+    border-bottom: 1px solid rgb(5, 73, 175);
+    padding-bottom: 3px;
+    transition: .5s;
 }
 
 .header #nav-container li a:hover {
@@ -96,3 +98,36 @@ body {
     background: rgb(57, 60, 65);
     border-radius: 6px;
 }
+
+/* Forms */
+input[type=text], input[type=email], textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #7289DA;
+    background-color: #23272A;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 20%;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  

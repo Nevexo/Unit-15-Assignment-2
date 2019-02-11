@@ -1,99 +1,131 @@
 <html>
-    <head>
-        <title>HBWS | Our Staff</title>
-        <!-- Local CSS (back one directory) -->
-        <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="../css/content.css">
-        <link rel="stylesheet" href="../css/cards.css">
-        <!-- Remote CSS -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300|Staatliches|Rokkitt:300|Poppins:400" rel="stylesheet">
-    </head>
 
-    <!-- Body Content -->
-    <body>
-        <!-- Header -->
-        <div class="header">
+<head>
+    <title>HBWS | Our Staff</title>
+    <!-- Local CSS (back one directory) -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/infopanel.css">
+    <!-- Remote CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300|Staatliches|Rokkitt:300|Poppins:400" rel="stylesheet">
+</head>
 
-            <!-- Navigation -->
-            <div id="nav-container">
-                <!-- Logo -->
-                <div class="logo">
-                    <h3> <a href="../index.html">
+<!-- Body Content -->
+
+<body>
+    <!-- Header -->
+    <div class="header">
+
+        <!-- Navigation -->
+        <div id="nav-container">
+            <!-- Logo -->
+            <div class="logo">
+                <h3> <a href="../index.html">
                         <i style="color: #0B3C86;" class="fas fa-angle-right"></i>
-                         HBWS
+                        HBWS
                     </a></h3>
-                </div>
-                <!-- Navigation Buttons -->
-                <ul>
-                    <li><a href="../pages/about.html">ABOUT US</a></li>
-                    <li><a class="selected" href="#">EMPLOYEES</a></li>
-                    <li><a href="../pages/work-for-us.html">CAREERS</a></li>
-                    <li><a href="../pages/training.html">TRAINING</a></li>
-                    <li><a href="../pages/contact.html">CONTACT US</a></li>
-                </ul>
             </div>
+            <!-- Navigation Buttons -->
+            <ul>
+                <li><a href="../pages/about.html">ABOUT US</a></li>
+                <li class="selected"><a href="#">EMPLOYEES</a></li>
+                <li><a href="../pages/work-for-us.html">CAREERS</a></li>
+                <li><a href="../pages/training.html">TRAINING</a></li>
+                <li><a href="../pages/contact.html">CONTACT US</a></li>
+            </ul>
         </div>
-        <!-- End of navigation -->
-        <!-- End header -->
+    </div>
+    <!-- End of navigation -->
+    <!-- End header -->
 
-        <!-- Centre of screen -->
-        <div class="wrapper">
-            <div class="content-wrapper">
-                <!-- Page Content -->
-                <img class="header" src="../images/employees-header.jpg">
-                <div class="content">
-                    <p>
-                        At HBWS, we value all of our staff members. Here is a list of 
-                        our current members, and each of the values they bring
-                        to our company.
-                    </p>
-                    <div class="card-wrapper">
-                        <div class="card-content">
-                            <img width=190, height=250 src="../images/staff/jin.jpg">
-                            <div class="overlay">
-                                <p class="text">Ping-ying</p>
-                            </div>
-                            <h3 class="card-information">Big Ste'</h3>
-                            <h4 class="card-information">CTO</h4>
-                        </div>
-                    </div>
-                    <div class="card-wrapper">
-                        <div class="card-content">
-                            <img width=190, height=250 src="../images/staff/jin.jpg">
-                            <h3 class="card-information">Big Ste'</h3>
-                            <h4 class="card-information">CTO</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- End of content -->
-            </div>
-        </div>
-        <!-- End centre -->
-        <!-- Footer -->
-        <div class="footer">
-            <div class="left">
-                <p>&copy 2019 Cameron Fleming | 20182242</p>
-            </div>
-            <div class="centre">
-
-            </div>
-            <div class="right">
-                <p>Connect with Us:
-                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
-                    <a href="https://github.com/nevexo"><i class="fab fa-github"></i></a>
-                    <a href="https://nintendo.com"><i class="fab fa-nintendo-switch"></i></a>
+    <!-- Setup the information panes -->
+    <div class="information-panes">
+        <!-- Below is the extra information for jobs -->
+        <!-- Most of these are hidden until opened on click. -->
+        <div class="info-pane" id="employee_john_doe">
+            <div class="pane-content">
+                <h1 class="info-pane-heading">John Doe</h1>
+                <div class="info-pane-status gold">Employee of the Month!</div>
+                <h4 class="info-pane-subheading">Joined: 1/12/2015</h4>
+                <h4 class="info-pane-subheading">Lead Software Engineer | Web Development</h4>
+                <p>
+                    Fusce et lacus congue, faucibus diam ut, ultricies ipsum. Suspendisse pretium arcu leo, eu pretium
+                    est sollicitudin quis.
+                    In commodo, tortor nec fermentum vestibulum, velit odio elementum turpis, vel dignissim ex erat vel
+                    ex. Proin posuere aliquet
+                    odio et tincidunt. Suspendisse lectus velit, cursus vitae dui ac, pulvinar ultricies lorem. In hac
+                    habitasse platea dictumst.
+                    Integer volutpat tincidunt dapibus. Maecenas ac cursus diam. Praesent id nisi in risus mollis
+                    vestibulum ut et velit.
+                    Vestibulum ut tellus sed lorem dapibus efficitur. Curabitur dapibus tellus et diam rhoncus
+                    placerat. Nulla ullamcorper,
+                    lacus venenatis sollicitudin congue, leo velit porta nulla, in finibus lacus sapien quis dolor.
+                    Proin vel volutpat augue.
+                    Nulla pellentesque eros id mauris suscipit, nec convallis augue vestibulum.
                 </p>
+                <p>Add social information here</p>
             </div>
         </div>
-        <!-- End footer -->
-    </body>
+    </div>
 
-    <footer>
-        <!-- Import JavaScript -->
-        <script src="js/main.js"></script>
-        <script src="js/welcome.js"></script>
-    </footer>
+    <!-- Centre of screen -->
+    <div class="wrapper">
+        <div class="content-wrapper">
+            <!-- Page Content -->
+            <img class="header" src="../images/employees-header.jpg">
+            <div class="content">
+                <p>
+                    At HBWS, we value all of our staff members. Here is a list of
+                    our current members, and each of the values they bring
+                    to our company.
+                </p>
+                <div class="card-wrapper">
+                    <div class="card-content" onclick="showInformationPane('employee_john_doe')">
+                        <img width=190, height=250 src="../images/staff/jin.jpg">
+                        <h3 class="card-information">John Doe</h3>
+                        <h4 class="card-information">LSE</h4>
+                    </div>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card-content" onclick="showInformationPane('employee_ricardo')">
+                        <img width=190, height=250 src="https://media1.tenor.com/images/afb2192a67186f06d09f49567a64a417/tenor.gif?itemid=12970659">
+                        <h3 class="card-information">Ricardo</h3>
+                        <h4 class="card-information">FIRED</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End of content -->
+        </div>
+    </div>
+    <!-- End centre -->
+    <!-- Footer -->
+    <div class="footer">
+        <div class="left">
+            <p>&copy 2019 Cameron Fleming | 20182242</p>
+        </div>
+        <div class="centre">
+
+        </div>
+        <div class="right">
+            <p>Connect with Us:
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/nevexo"><i class="fab fa-github"></i></a>
+                <a href="https://nintendo.com"><i class="fab fa-nintendo-switch"></i></a>
+            </p>
+        </div>
+    </div>
+    <!-- End footer -->
+</body>
+
+<footer>
+    <!-- Import JavaScript -->
+    <script src="../js/main.js"></script>
+    <script src="../js/careers.js"></script>
+</footer>
+
 </html>
