@@ -100,7 +100,7 @@ body {
 }
 
 /* Forms */
-input[type=text], input[type=email], textarea, select {
+input[type=text], input[type=email], textarea, select { 
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -110,10 +110,6 @@ input[type=text], input[type=email], textarea, select {
     color: white;
     border-radius: 4px;
     box-sizing: border-box;
-}
-
-textarea {
-    height: 20%;
 }
 
 input[type=submit] {

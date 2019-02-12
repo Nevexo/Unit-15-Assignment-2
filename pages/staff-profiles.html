@@ -45,9 +45,10 @@
     <div class="information-panes">
         <!-- Below is the extra information for jobs -->
         <!-- Most of these are hidden until opened on click. -->
-        <div class="info-pane" id="employee_john_doe">
+        <!-- John Card -->
+        <div class="info-pane" id="employee_john">
             <div class="pane-content">
-                <h1 class="info-pane-heading">John Doe</h1>
+                <h1 class="info-pane-heading">John</h1>
                 <div class="info-pane-status gold">Employee of the Month!</div>
                 <h4 class="info-pane-subheading">Joined: 1/12/2015</h4>
                 <h4 class="info-pane-subheading">Lead Software Engineer | Web Development</h4>
@@ -59,12 +60,25 @@
                     odio et tincidunt. Suspendisse lectus velit, cursus vitae dui ac, pulvinar ultricies lorem. In hac
                     habitasse platea dictumst.
                     Integer volutpat tincidunt dapibus. Maecenas ac cursus diam. Praesent id nisi in risus mollis
-                    vestibulum ut et velit.
-                    Vestibulum ut tellus sed lorem dapibus efficitur. Curabitur dapibus tellus et diam rhoncus
-                    placerat. Nulla ullamcorper,
-                    lacus venenatis sollicitudin congue, leo velit porta nulla, in finibus lacus sapien quis dolor.
-                    Proin vel volutpat augue.
-                    Nulla pellentesque eros id mauris suscipit, nec convallis augue vestibulum.
+                </p>
+                <p>Add social information here</p>
+            </div>
+        </div>
+
+        <!-- Mike Card -->
+        <div class="info-pane" id="employee_mike">
+            <div class="pane-content">
+                <h1 class="info-pane-heading">Mike</h1>
+                <h4 class="info-pane-subheading">Joined: 2/12/2015</h4>
+                <h4 class="info-pane-subheading">Chief Technical Officer | Web Development</h4>
+                <p>
+                    Fusce et lacus congue, faucibus diam ut, ultricies ipsum. Suspendisse pretium arcu leo, eu pretium
+                    est sollicitudin quis.
+                    In commodo, tortor nec fermentum vestibulum, velit odio elementum turpis, vel dignissim ex erat vel
+                    ex. Proin posuere aliquet
+                    odio et tincidunt. Suspendisse lectus velit, cursus vitae dui ac, pulvinar ultricies lorem. In hac
+                    habitasse platea dictumst.
+                    Integer volutpat tincidunt dapibus. Maecenas ac cursus diam. Praesent id nisi in risus mollis
                 </p>
                 <p>Add social information here</p>
             </div>
@@ -83,17 +97,17 @@
                     to our company.
                 </p>
                 <div class="card-wrapper">
-                    <div class="card-content" onclick="showInformationPane('employee_john_doe')">
+                    <div class="card-content" onclick="showInformationPane('employee_john')">
                         <img width=190, height=250 src="../images/staff/jin.jpg">
-                        <h3 class="card-information">John Doe</h3>
+                        <h3 class="card-information">John</h3>
                         <h4 class="card-information">LSE</h4>
                     </div>
                 </div>
                 <div class="card-wrapper">
-                    <div class="card-content" onclick="showInformationPane('employee_ricardo')">
-                        <img width=190, height=250 src="https://media1.tenor.com/images/afb2192a67186f06d09f49567a64a417/tenor.gif?itemid=12970659">
-                        <h3 class="card-information">Ricardo</h3>
-                        <h4 class="card-information">FIRED</h4>
+                    <div class="card-content" onclick="showInformationPane('employee_mike')">
+                        <img width=190, height=250 src="../images/staff/mike.jpg">
+                        <h3 class="card-information">Mike</h3>
+                        <h4 class="card-information">CTO</h4>
                     </div>
                 </div>
             </div>
