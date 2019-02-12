@@ -31,15 +31,14 @@ if (firstname != undefined) {
             text = text.replace("[" + placeholderString + "]", dataSet[placeholderString])
             // Reset the placeholderString
             placeholderString = ""
-            console.log("Exited placeholder")
         }      
         if (inPlaceholder) {
+            // Add every character inside of a placeholder to a buffer
             placeholderString += text[i]
-            console.log("Appending " + text[i])
         }
         if (text[i] == "[" && !inPlaceholder) {
+            // Detect the start of a placeholder
             inPlaceholder = true
-            console.log("Now in placeholder")
         }
     } 
     // All done replacing placeholders, update the element
