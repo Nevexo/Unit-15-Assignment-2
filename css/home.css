@@ -43,6 +43,16 @@ body {
     font-size: 14px;
 }
 
+/* Disclaimer message (added after submission, for use on personal CV) */
+.disclaimer {
+    color: rgb(139, 139, 139);
+    text-decoration: underline;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 14px;
+}
+ 
 .footer a:hover {
     color: white;
     transition:.5s;
